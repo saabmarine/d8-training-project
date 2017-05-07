@@ -1,0 +1,22 @@
+uuid: 0e17015d-0722-42c5-8028-02869dbfe4cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8training
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: d8training_breadcrumbs
+theme: d8training
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

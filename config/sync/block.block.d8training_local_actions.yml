@@ -1,0 +1,20 @@
+uuid: ac7b96b8-8df3-45a1-a627-1d5577aeba8c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - d8training
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: d8training_local_actions
+theme: d8training
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

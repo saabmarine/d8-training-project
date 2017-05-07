@@ -1,0 +1,20 @@
+uuid: 8b4dc4c4-bc06-4604-9c45-00fa88716e2a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - d8training
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: d8training_page_title
+theme: d8training
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

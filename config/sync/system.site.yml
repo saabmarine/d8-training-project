@@ -1,0 +1,14 @@
+uuid: 83f8d09c-baad-4a63-a87b-3380148d9570
+name: 'Drupal 8 Training'
+mail: roel.zacarias@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
