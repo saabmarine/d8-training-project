@@ -1,0 +1,39 @@
+uuid: ed0d8cd8-774d-48dd-bbba-51d8611a5680
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_participants
+    - node.type.event
+    - paragraphs.paragraphs_type.participants
+  module:
+    - entity_reference_revisions
+id: node.event.field_participants
+field_name: field_participants
+entity_type: node
+bundle: event
+label: Participants
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      participants: participants
+    target_bundles_drag_drop:
+      hero:
+        weight: 5
+        enabled: false
+      participants:
+        enabled: true
+        weight: 6
+      recipe:
+        weight: 7
+        enabled: false
+      social_links:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

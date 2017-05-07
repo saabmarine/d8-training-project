@@ -1,0 +1,36 @@
+uuid: 700f6515-b9ff-405a-8a70-d190e0391678
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero.field_image
+    - field.field.paragraph.hero.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.hero
+  module:
+    - image
+id: paragraph.hero.default
+targetEntityType: paragraph
+bundle: hero
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

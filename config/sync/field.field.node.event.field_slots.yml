@@ -1,0 +1,23 @@
+uuid: 5166070e-13a0-4212-a324-e86e2705a1f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slots
+    - node.type.event
+id: node.event.field_slots
+field_name: field_slots
+entity_type: node
+bundle: event
+label: Slots
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

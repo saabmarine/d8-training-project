@@ -1,0 +1,71 @@
+uuid: c47c323f-e8c4-42de-800f-a1174031a404
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.social_links.field_behance
+    - field.field.paragraph.social_links.field_dribble
+    - field.field.paragraph.social_links.field_email
+    - field.field.paragraph.social_links.field_facebook
+    - field.field.paragraph.social_links.field_instagram
+    - field.field.paragraph.social_links.field_twitter
+    - paragraphs.paragraphs_type.social_links
+  module:
+    - link
+id: paragraph.social_links.default
+targetEntityType: paragraph
+bundle: social_links
+mode: default
+content:
+  field_behance:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_dribble:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_email:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_facebook:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_instagram:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_twitter:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

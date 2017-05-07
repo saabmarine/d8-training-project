@@ -1,0 +1,24 @@
+uuid: 79216022-9d7b-4747-b389-cd153a09d684
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.recipe.field_ingredient
+    - paragraphs.paragraphs_type.recipe
+id: paragraph.recipe.default
+targetEntityType: paragraph
+bundle: recipe
+mode: default
+content:
+  field_ingredient:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,19 @@
+uuid: 282ee14f-f290-4770-84e8-d1fa794ddebb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ingredient
+    - paragraphs.paragraphs_type.recipe
+id: paragraph.recipe.field_ingredient
+field_name: field_ingredient
+entity_type: paragraph
+bundle: recipe
+label: Ingredient
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

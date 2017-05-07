@@ -1,0 +1,23 @@
+uuid: 8ab85cf5-9454-4671-918b-708a0967b8de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dribble
+    - paragraphs.paragraphs_type.social_links
+  module:
+    - link
+id: paragraph.social_links.field_dribble
+field_name: field_dribble
+entity_type: paragraph
+bundle: social_links
+label: Dribble
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

@@ -1,0 +1,87 @@
+uuid: cd280a20-4e38-4ecc-9b71-8949573ec2df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.social_links.field_behance
+    - field.field.paragraph.social_links.field_dribble
+    - field.field.paragraph.social_links.field_email
+    - field.field.paragraph.social_links.field_facebook
+    - field.field.paragraph.social_links.field_instagram
+    - field.field.paragraph.social_links.field_twitter
+    - paragraphs.paragraphs_type.social_links
+  module:
+    - link
+id: paragraph.social_links.default
+targetEntityType: paragraph
+bundle: social_links
+mode: default
+content:
+  field_behance:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_dribble:
+    weight: 4
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_email:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_facebook:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_instagram:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_twitter:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

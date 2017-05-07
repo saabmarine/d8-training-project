@@ -1,0 +1,19 @@
+uuid: 95b0716e-c178-45a3-9a8d-b5b5fdf624f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_email
+    - paragraphs.paragraphs_type.social_links
+id: paragraph.social_links.field_email
+field_name: field_email
+entity_type: paragraph
+bundle: social_links
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

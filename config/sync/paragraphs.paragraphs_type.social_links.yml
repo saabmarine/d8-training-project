@@ -1,0 +1,7 @@
+uuid: e304ded6-084b-49ef-ba20-260ef2e43e72
+langcode: en
+status: true
+dependencies: {  }
+id: social_links
+label: 'Social Links'
+behavior_plugins: {  }

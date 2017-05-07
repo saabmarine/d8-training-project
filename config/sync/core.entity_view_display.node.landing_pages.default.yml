@@ -1,0 +1,28 @@
+uuid: 65e21c54-3fa5-45c4-80d5-e6a01faf15c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_pages.field_hero
+    - node.type.landing_pages
+  module:
+    - entity_reference_revisions
+    - user
+id: node.landing_pages.default
+targetEntityType: node
+bundle: landing_pages
+mode: default
+content:
+  field_hero:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

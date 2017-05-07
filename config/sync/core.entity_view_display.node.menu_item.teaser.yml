@@ -1,0 +1,18 @@
+uuid: 887c627e-8ca4-46dd-bc0c-acd830a0bc44
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.menu_item
+  module:
+    - user
+id: node.menu_item.teaser
+targetEntityType: node
+bundle: menu_item
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

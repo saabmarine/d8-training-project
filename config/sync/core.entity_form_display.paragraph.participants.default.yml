@@ -1,0 +1,25 @@
+uuid: 9b42ab6e-e261-4601-8650-7a5ee2382a6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.participants.field_participant
+    - paragraphs.paragraphs_type.participants
+id: paragraph.participants.default
+targetEntityType: paragraph
+bundle: participants
+mode: default
+content:
+  field_participant:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

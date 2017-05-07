@@ -1,0 +1,7 @@
+uuid: e6a87596-59fe-4d9a-ba54-0f3a8302053a
+langcode: en
+status: true
+dependencies: {  }
+id: recipe
+label: Recipe
+behavior_plugins: {  }
