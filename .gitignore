@@ -1,1 +1,6 @@
+vendor
 .DS_Store
+themes/d8training/node_modules
+.htaccess
+sites
+modules/contrib
