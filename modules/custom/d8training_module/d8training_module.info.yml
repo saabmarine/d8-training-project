@@ -1,0 +1,5 @@
+name: D8Training Module
+type: module
+description: C&T D8 Training Module
+package: Custom
+core: 8.x
