@@ -4,6 +4,14 @@ description: C&T D8 Training Theme with KSS styleguide
 package: Other
 core: 8.x
 
+libraries:
+  - d8training/global
+
+component-libraries:
+  d8training:
+    paths:
+      - src/kss/components
+
 regions:
   header: Header
   content: Content

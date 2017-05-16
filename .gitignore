@@ -4,3 +4,7 @@ themes/d8training/node_modules
 .htaccess
 sites
 modules/contrib
+dist
+vendor-dist
+.eslintignore
+.eslintrc.json
