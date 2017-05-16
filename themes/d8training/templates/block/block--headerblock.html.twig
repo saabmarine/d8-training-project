@@ -1,0 +1,7 @@
+
+
+{{ attach_library('d8training/header') }}
+{% include '@d8training/header/header.twig' with {
+  'email' : content['#email'],
+  'telephone' : content['#telephone'],
+} only %}
