@@ -1,0 +1,48 @@
+/*----------------------------
+    3. ABOUT AREA
+------------------------------*/
+
+.about-area .area-title h2 {
+    font-size: 80px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.about-area .area-title h2 span {
+    color: #212324;
+    font-family: lato;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.about-area .area-title h2::after {
+    background: #c1934c none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.about-content {
+    color: #4a4d4f;
+}
+
+a.read-more {
+    border: 1px solid;
+    color: #d0963e;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 7px 23px;
+    text-transform: uppercase;
+}
+
+.read-more:hover {
+    background: #d0963e;
+    color: #fff;
+    border-color: #d0963e;
+}
