@@ -1,32 +1,36 @@
 global:
   css:
     theme:
-      dist/css/base.css: {}
-      dist/css/style.css: {}
-      vendor-dist/css/responsive.css: {}
+      # dist/css/base.css: {}
+      dist/css/styles.css: {}
+      vendor-dist/css/animate.css: {}
       vendor-dist/css/bootstrap.min.css: {}
+      vendor-dist/css/datepicker.css: {}
       vendor-dist/css/font-awesome.min.css: {}
+      vendor-dist/css/magnific-popup.css: {}
+      vendor-dist/css/normalize.css: {}
+      vendor-dist/css/owl.carousel.css: {}
+      vendor-dist/css/pogo-slider.css: {}
+      vendor-dist/css/responsive.css: {}
+      vendor-dist/css/timepicker.min.css: {}
   js:
-    vendor-dist/js/vendor/modernizr-2.8.3.min.js: {}
+    # dist/js/main.js: {}
     vendor-dist/js/vendor/bootstrap.min.js: {}
-    vendor-dist/js/vendor/jquery.easing.1.3.js: {}
+    vendor-dist/js/vendor/jquery-1.12.4.min.js: {}
     vendor-dist/js/vendor/jquery-migrate-1.2.1.min.js: {}
+    vendor-dist/js/vendor/jquery.easing.1.3.js: {}
+    vendor-dist/js/vendor/modernizr-2.8.3.min.js: {}
+    vendor-dist/js/contact-form.js: {}
+    vendor-dist/js/datepicker.min.js: {}
+    vendor-dist/js/jquery.magnific-popup.min.js: {}
+    vendor-dist/js/jquery.mixitup.min.js: {}
+    vendor-dist/js/jquery.pogo-slider.js: {}
+    vendor-dist/js/jquery.sticky.js: {}
+    vendor-dist/js/maps.active.js: {}
+    vendor-dist/js/owl.carousel.min.js: {}
+    vendor-dist/js/spectragram.js: {}
+    vendor-dist/js/timepicker.min.js: {}
+    vendor-dist/js/waypoints.min.js: {}
+    vendor-dist/js/wow.min.js: {}
+    vendor-dist/js/main.js: {}
   dependencies:
-    - core/drupal
-    - core/jquery
-
-header:
-  css:
-    theme:
-      dist/css/header.css: {}
-  js:
-    dist/js/header.js: {}
-    vendor-dist/js/jquery.sticky.js: {}
-
-footer:
-  css:
-    theme:
-      dist/css/footer.css: {}
-  js:
-    dist/js/header.js: {}
-    vendor-dist/js/jquery.sticky.js: {}

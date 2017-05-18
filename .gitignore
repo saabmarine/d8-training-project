@@ -8,3 +8,4 @@ dist
 vendor-dist
 .eslintignore
 .eslintrc.json
+img
