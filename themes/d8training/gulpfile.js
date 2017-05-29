@@ -114,7 +114,7 @@ gulp.task('build:kss', function() {
     ],
     destination: 'dist/style-guide',
     builder: 'src/kss/builder',
-    namespace: 'd8kss:' + __dirname + '/src/kss/components/',
+    namespace: 'd8training:' + __dirname + '/src/kss/components/',
     homepage: '/../styleguide.md',
     title: 'Style Guide',
     'extend-drupal8': true
