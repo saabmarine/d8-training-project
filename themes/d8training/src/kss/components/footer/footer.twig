@@ -8,19 +8,24 @@
                             <a href="#"><img src="{{ url('<front>') }}/{{ directory }}/dist/images/footer_white_logo.png" alt=""></a>
                         </div>
                         <div class="footer-address">
-                            <p>20,floor,Queenslad Victoria Building. 60 california street california USA</p>
-                            <p><a href="mailto:mehedidb@gmail.com">Hellow@OwlTheme.com</a></p>
-                            <p><a href="callto:+8800000001111">+88 000 0000 1111</a></p>
+                            {% if (contact_details.address) -%}
+                                <p>{{ contact_details.address }}</p>
+                            {%- endif %}
+                            {% if (contact_details.email) -%}
+                                <p><a href="mailto:{{ contact_details.email }}">{{ contact_details.email }}</a></p>
+                            {%- endif %}
+                            {% if (contact_details.telephone) -%}
+                                <p><a href="callto:{{ contact_details.telephone }}">{{ contact_details.telephone }}</a></p>
+                            {%- endif %}
+
                         </div>
                         <div class="footer-social-bookmark">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                {% for key,link in social_links %}
+                                    {% if (link) -%}
+                                        <li><a href="{{ link }}"><i class="fa fa-{{ key }}"></i></a></li>
+                                    {%- endif %}
+                                {% endfor %}
                             </ul>
                         </div>
                     </div>

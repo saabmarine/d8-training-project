@@ -1,3 +1,24 @@
 {{ attach_library('d8training/footer') }}
 
-{% include '@d8training/footer/footer.twig' %}
+{% set data = {
+    'contact_details': {
+        'email': content['#email'],
+        'telephone': content['#telephone'],
+        'address': content['#address'],
+    },
+    'social_links': {
+        'facebook': content['#facebook'],
+        'twitter': content['#twitter'],
+        'behance': content['#behance'],
+        'instagram': content['#instagram'],
+        'dribble': content['#dribble'],
+        'skype': content['#skype'],
+        'google': content['#google'],
+    },
+    'logos': {
+        'primary_logo': file_url(content['#primary_logo'].fileuri),
+    }
+
+} %}
+
+{% include '@d8training/footer/footer.twig' with data only %}

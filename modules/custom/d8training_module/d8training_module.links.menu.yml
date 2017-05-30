@@ -1,0 +1,6 @@
+d8training_module.global_configuration:
+  title: 'D8 Training Global Configuration'
+  description: 'D8 Training Global Configuration'
+  parent: system.admin_config_development
+  route_name: d8training_module.global_configuration
+  weight: 0

@@ -1,0 +1,39 @@
+<?php
+
+use Drupal\file\Entity\File;
+
+/**
+ * Implements template_preprocess_block().
+ */
+function d8training_preprocess_block(&$vars) {
+    $config = \Drupal::config('d8training_module.global_configuration');
+
+    if ( $vars['attributes']['id'] == 'block-headerblock' ) {
+        $vars['content']['#email'] = $config->get('email');
+        $vars['content']['#telephone'] = $config->get('telephone');
+
+        $vars['content']['#facebook'] = $config->get('facebook');
+        $vars['content']['#twitter'] = $config->get('twitter');
+        $vars['content']['#behance'] = $config->get('behance');
+        $vars['content']['#dribble'] = $config->get('dribble');
+
+        $vars['content']['#primary_logo'] = File::load($config->get('primary_logo'));
+        $vars['content']['#secondary_logo'] = File::load($config->get('secondary_logo'));
+    }
+
+    if ( $vars['attributes']['id'] == 'block-footerblock' ) {
+        $vars['content']['#email'] = $config->get('email');
+        $vars['content']['#telephone'] = $config->get('telephone');
+        $vars['content']['#address'] = $config->get('address');
+
+        $vars['content']['#facebook'] = $config->get('facebook');
+        $vars['content']['#twitter'] = $config->get('twitter');
+        $vars['content']['#behance'] = $config->get('behance');
+        $vars['content']['#instagram'] = $config->get('instagram');
+        $vars['content']['#dribble'] = $config->get('dribble');
+        $vars['content']['#skype'] = $config->get('skype');
+        $vars['content']['#google'] = $config->get('google');
+
+        $vars['content']['#primary_logo'] = File::load($config->get('primary_logo'));
+    }
+}

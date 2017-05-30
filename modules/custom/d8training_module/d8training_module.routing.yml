@@ -1,0 +1,7 @@
+d8training_module.global_configuration:
+  path: '/admin/config/d8training_module/global_settings'
+  defaults:
+    _form: '\Drupal\d8training_module\Form\GlobalSettingsForm'
+    _title: 'Global Configuration'
+  requirements:
+    _permission: 'administer site configuration'
