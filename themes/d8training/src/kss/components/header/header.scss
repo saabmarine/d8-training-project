@@ -1,0 +1,511 @@
+/*--------------------------
+    2. TOP AREA
+---------------------------*/
+
+.top-area {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.top-social-bookmark {
+    float: right;
+}
+
+.book-table-popup {
+    float: right;
+    padding: 5px;
+}
+
+.top-social-bookmark ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.top-social-bookmark ul li {
+    display: inline;
+}
+
+.top-social-bookmark ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 39px;
+    margin: 0 -2.5px;
+    padding: 6px;
+    text-align: center;
+    width: 40px;
+}
+
+.top-social-bookmark ul li a:hover {
+    background: #fff;
+    color: #d0963e;
+}
+
+.top-social-bookmark ul li:last-child a {
+    margin-right: -5px;
+}
+
+.book-table-popup a {
+    background: #d0963e none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 30px;
+}
+
+.book-table-popup a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #d0963e;
+}
+
+
+/*---------------------------------
+    2.1 MAINMENU AREA
+-----------------------------------*/
+
+.mainmenu-area {
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;
+}
+
+.is-sticky .mainmenu-area {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    z-index: 99999;
+}
+
+.navbar-header {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: 8px;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.navbar-brand.white {
+    display: block;
+}
+
+.is-sticky .navbar-brand.white {
+    display: none;
+}
+
+.is-sticky .navbar-brand {
+    display: block;
+}
+
+.navbar {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    margin-bottom: 0;
+}
+
+ul#nav {
+    float: right;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+ul#nav li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 40px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+ul#nav li.active a::before {
+    background: #d0963e none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+ul#nav li:hover a,
+ul#nav li.active a {
+    color: #d0963e;
+}
+
+ul#nav li:hover ul {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+ul#nav ul {
+    background: #1a1a1a none repeat scroll 0 0;
+    left: 0;
+    list-style: outside none none;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 180px;
+}
+
+ul#nav li ul li {
+    display: block;
+    border-bottom: 1px dashed #363636;
+}
+
+ul#nav li ul li:last-child {
+    border-bottom: 0 none;
+}
+
+.is-sticky ul#nav li ul li:hover a,
+ul#nav li ul li a,
+ul#nav ul li a {
+    color: #fff !important;
+    display: block;
+    padding: 7px 15px;
+}
+
+ul#nav ul li:hover a {
+    background: #d0963e none repeat scroll 0 0;
+    color: #fff;
+}
+
+.is-sticky ul#nav li ul li a {
+    padding: 7px 15px;
+}
+
+.top-bar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.call-to-action {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.call-to-action a {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.call-to-action p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.call-to-action i {
+    margin-right: 10px;
+}
+
+.is-sticky ul#nav li a {
+    padding: 30px 20px;
+    color: #1a1a1a;
+}
+
+.is-sticky ul#nav li.active a,
+.is-sticky ul#nav li:hover a {
+    color: #d0963e;
+}
+
+.is-sticky .signup-and-login-button ul li {
+    padding: 14px 0;
+}
+
+.is-sticky .signup-and-login-button ul li a {
+    background: #d64332 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.is-sticky .mainmenu-area {
+    background: #ffffff none repeat scroll 0 0;
+}
+
+.is-sticky .navbar-header {
+    margin-top: -3px;
+}
+
+
+/*-----------------------------------
+    2.2 SLIDER AREA
+-------------------------------------*/
+
+.header-top-area {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    text-transform: uppercase;
+}
+
+.slider-area {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-weight: 900;
+    color: #fff;
+}
+
+.slider-area h1 {
+    font-size: 65px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.slider-area h1 span {
+    font-weight: 700;
+}
+
+.slider-area h2 {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 82px;
+    letter-spacing: 2px;
+}
+
+.slider-area h3 {
+    font-family: lato;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.slider-area h3 a {
+    border: 1px solid;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 15px;
+    padding: 10px 30px;
+}
+
+.slider-area h3 a:hover {
+    color: #fff;
+    background: #d0963e none repeat scroll 0 0;
+    border-color: #d0963e;
+}
+
+.pogoSlider {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.pogoSlider-slide {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+    position: absolute;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 5%
+}
+
+.pogoSlider-slide:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+/*----------------------------
+    2.3 SEARCH FORM AREA
+-----------------------------*/
+
+.search-form-area {
+    float: right;
+    margin-right: -30px;
+    padding: 35px 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.is-sticky .search-form-area {
+    padding: 25px 15px;
+}
+
+a.search-form-trigger {
+    color: #fff;
+    font-size: 0 !important;
+    position: relative;
+    width: 30px;
+}
+
+.is-sticky a.search-form-trigger {
+    color: #1a1a1a;
+}
+
+a.search-form-trigger::before {
+    content: "\f002";
+    font-family: fontawesome;
+    font-size: 15px;
+    height: 40px;
+    margin-right: -15px;
+    margin-top: -20px;
+    padding-top: 5px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.search-form-trigger.search-is-visible::before {
+    color: #fff;
+    content: "\f067";
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.search-form {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.search-form.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+.search-form form {
+    height: 100%;
+    width: 100%;
+}
+
+.search-form input {
+    border-radius: 0;
+    border: none;
+    background: #272727;
+    height: 100%;
+    width: 100%;
+    padding: 0 5%;
+    box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.search-form input::-webkit-input-placeholder {
+    color: #c9cbc4;
+}
+
+.search-form input::-moz-placeholder {
+    color: #c9cbc4;
+}
+
+.search-form input:-moz-placeholder {
+    color: #c9cbc4;
+}
+
+.search-form input:-ms-input-placeholder {
+    color: #c9cbc4;
+}
+
+.search-form input:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .search-form {
+        height: 120px;
+        top: 100%;
+    }
+    .search-form input {
+        padding: 0 2em;
+        font-size: 3.2rem;
+        font-weight: 300;
+    }
+}
+
+.search-form-overlay {
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s, -webkit-transform 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s, -webkit-transform 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, -webkit-transform 0.3s 0s;
+}
+
+.search-form-overlay.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s, -webkit-transform 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s, -webkit-transform 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, -webkit-transform 0.3s 0s;
+}
+
+.no-js .search-form {
+    position: relative;
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}

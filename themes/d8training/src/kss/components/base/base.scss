@@ -1,0 +1,154 @@
+/*--------------------
+   1. BASE CSS
+----------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Lato:100,300,400,400i,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #212324;
+}
+
+a:hover {
+    color: #c1934c;
+}
+
+a:focus,
+a:hover {
+    outline: 0 solid;
+    text-decoration: none;
+}
+
+a.read-more {
+    border: 1px solid;
+    color: #d0963e;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 7px 23px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    color: #555555;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 1.7em;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.navbar-toggle {
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff none repeat scroll 0 0;
+}
+
+.is-sticky .navbar-header .collapse,
+.is-sticky .navbar-toggle {
+    border: 2px solid #1a1a1a;
+}
+
+.is-sticky .navbar-toggle .icon-bar {
+    background: #1a1a1a none repeat scroll 0 0;
+}
+
+.area-title {
+    margin-bottom: 60px;
+}
+
+.area-title h2 {
+    color: #d0963e;
+    display: inline-block;
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 80px;
+    margin: 0;
+    padding: 0 10px;
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.area-title h3 {
+    color: #212324;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+.gray-bg {
+    background: #f3f4f4;
+}

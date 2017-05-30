@@ -1,0 +1,88 @@
+/*===============================
+    14. ABOUT PAGE
+=================================*/
+
+.top-area.single-page {
+    height: 500px;
+    position: relative;
+}
+
+.page-barner-bg {
+    background-attachment: fixed !important;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.about-page .page-barner-bg {
+    background: rgba(0, 0, 0, 0) url("{{ directory }}/dist/images/about/about_page_barner.jpg") no-repeat scroll center center / cover;
+}
+
+.count-area-bg:after,
+.page-barner-bg::after {
+    background: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.page-barner-area {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.barner-text h1 {
+    font-size: 55px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.barner-text h1 span {
+    font-weight: 300;
+}
+
+ul.page-location {
+    bottom: -140px;
+    left: 0;
+    letter-spacing: 2px;
+    list-style: outside none none;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+ul.page-location li {
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul.page-location li a {
+    color: #fff;
+}
+
+ul.page-location li.active a {
+    color: #d0963e;
+}

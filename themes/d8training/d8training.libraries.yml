@@ -1,0 +1,90 @@
+global:
+  css:
+    theme:
+      dist/css/base.css: {}
+      dist/css/responsive.css: {}
+      vendor-dist/css/animate.css: {}
+  js:
+    vendor-dist/js/vendor/jquery.easing.1.3.js: {}
+    vendor-dist/js/vendor/jquery-migrate-1.2.1.min.js: {}
+    vendor-dist/js/contact-form.js: {}
+    vendor-dist/js/wow.min.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - d8training/bootstrap
+    - d8training/font-awesome
+    - d8training/header-js
+
+header:
+  css:
+    theme:
+      dist/css/header.css: {}
+  dependencies:
+    - d8training/barner
+    - d8training/main-menu
+    - d8training/search-form
+    - d8training/slider
+
+barner:
+  css:
+    theme:
+      dist/css/barner.css: {}
+
+main-menu:
+  js:
+    dist/js/main-menu.js: {}
+  dependencies:
+    - d8training/modernizr-2-8-3-js
+    - d8training/sticky-js
+
+search-form:
+  js:
+    dist/js/search-form.js: {}
+  dependencies:
+    - d8training/bootstrap
+
+slider:
+  js:
+    dist/js/slider.js: {}
+  dependencies:
+    - d8training/pogo-slider
+
+footer:
+  css:
+    theme:
+      dist/css/footer.css: {}
+
+# vendor-dist
+header-js:
+  header: true
+  js:
+    //oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js: { type: external, browsers: { IE: 'lt IE 9', '!IE': false } }
+    //oss.maxcdn.com/respond/1.4.2/respond.min.js: { type: external, browsers: { IE: 'lt IE 9', '!IE': false } }
+
+bootstrap:
+  css:
+    theme:
+      vendor-dist/css/bootstrap.min.css: {}
+  js:
+    vendor-dist/js/vendor/bootstrap.min.js: {}
+
+font-awesome:
+  css:
+    theme:
+      vendor-dist/css/font-awesome.min.css: {}
+
+modernizr-2-8-3-js:
+  js:
+    vendor-dist/js/vendor/modernizr-2.8.3.min.js: {}
+
+sticky-js:
+  js:
+    vendor-dist/js/jquery.sticky.js: {}
+
+pogo-slider:
+  css:
+    theme:
+      vendor-dist/css/pogo-slider.css: {}
+  js:
+    vendor-dist/js/jquery.pogo-slider.js: {}

@@ -1,4 +1,10 @@
 .DS_Store
 sites
-modules
+modules/contrib
 vendor
+.eslintignore
+.eslintrc.json
+themes/d8training/src/images
+themes/d8training/node_modules
+themes/d8training/dist
+themes/d8training/vendor-dist

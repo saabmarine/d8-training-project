@@ -1,0 +1,74 @@
+/*------------------------------
+    10. FOOTER AREA
+-------------------------------*/
+
+.footer-area {
+    background: #191a1b none repeat scroll 0 0;
+    color: #cacaca;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.footer-top {
+    border-bottom: 1px solid #2B2C2D;
+}
+
+.footer-area a {
+    color: #d0963e;
+}
+
+.footer-area a:hover {
+    color: #fff;
+}
+
+.footer-logo,
+.footer-address {
+    margin-bottom: 50px;
+}
+
+.footer-social-bookmark ul,
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-social-bookmark ul li,
+.footer-menu ul li {
+    display: inline;
+}
+
+.footer-social-bookmark ul li a {
+    display: inline-block;
+    font-size: 25px;
+    width: 50px;
+    color: #c4c3c3;
+}
+
+.footer-social-bookmark a:hover {
+    color: #d0963e;
+}
+
+.footer-menu ul {
+    text-align: inherit;
+}
+
+.footer-menu ul li a {
+    display: inline-block;
+    padding: 7px 10px 7px 0;
+}
+
+.footer-menu {
+    padding: 30px 0;
+}
+
+.footer-copyright {
+    letter-spacing: 1px;
+    padding: 40px 0;
+    text-align: right;
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+}
