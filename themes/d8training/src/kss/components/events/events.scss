@@ -1,0 +1,90 @@
+/*-----------------------------
+    6. EVENT AREA
+------------------------------*/
+
+.event-area,
+.team-area {
+    position: relative;
+    color: #212324;
+}
+
+.event-area-bg {
+    background: rgba(0, 0, 0, 0) no-repeat scroll center center / cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.single-event {
+    border-bottom: 1px solid #C3C3C4;
+    padding: 60px 0;
+}
+
+.single-event:first-child {
+    padding-top: 0;
+}
+
+.single-event:last-child {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+}
+
+.event-img {
+    float: right;
+    margin-left: 40px;
+}
+
+.event-content {
+    padding-left: 220px;
+    position: relative;
+}
+
+.event-date {
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 700;
+    height: 150px;
+    left: 0;
+    padding-top: 45px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 150px;
+}
+
+.event-date span {
+    display: block;
+    font-size: 67px;
+    padding-bottom: 20px;
+}
+
+.event-details > h3 {
+    font-size: 24px;
+}
+
+p.event-meta {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+p.event-meta::after {
+    background: #c1924c none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.event-meta > a {
+    color: #212324;
+}
+
+.event-meta > a:hover {
+    color: #c1924c;
+}

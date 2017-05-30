@@ -1,0 +1,28 @@
+/*-----------------------------
+    9. INSTAGRAM FEED AREA
+------------------------------*/
+
+.instagram-area .area-title h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.instagram-area .area-title h4 a {
+    color: #c1934c;
+}
+
+ul.instagram-feed {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.instagram-feed li {
+    display: inline-block;
+    width: 20%;
+}
+
+ul.instagram-feed li img {
+    padding: 0 10px;
+}

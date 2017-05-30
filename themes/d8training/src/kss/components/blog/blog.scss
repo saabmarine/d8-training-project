@@ -1,0 +1,57 @@
+/*-----------------------------
+    8. BLOG AREA
+------------------------------*/
+
+.blog-area {
+    background: #f3f4f4 none repeat scroll 0 0;
+    position: relative;
+}
+
+.post-details {
+    background: #fff none repeat scroll 0 0;
+    margin: auto;
+    padding: 30px;
+    -webkit-transform: translateY(-150px);
+    transform: translateY(-150px);
+    width: 85%;
+    margin-bottom: -150px;
+}
+
+a.post-meta-button {
+    background: #c1934c none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    min-width: 150px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+.post-details > h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.post-details > h3::after {
+    background: #c1934c none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+.post-meta {
+    letter-spacing: 1px;
+}
+
+.post-meta a {
+    margin: 0 10px;
+}

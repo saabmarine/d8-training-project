@@ -1,0 +1,77 @@
+/*-----------------------------
+    5. MENUS AREA
+-------------------------------*/
+
+.menus-area.section-padding {
+    padding-bottom: 70px;
+}
+
+.food-menu-list-menu {
+    margin-bottom: 60px;
+}
+
+.food-menu-list-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.food-menu-list-menu ul li {
+    border: 1px solid;
+    color: #1e1e1f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 2px;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.food-menu-list-menu ul li:hover,
+.food-menu-list-menu ul li.active {
+    background: #1e1e1f none repeat scroll 0 0;
+    border-color: #1e1e1f;
+    color: #fff;
+}
+
+.mix {
+    display: none;
+}
+
+.food-menu-list .single-menu {
+    margin-bottom: 30px;
+}
+
+.food-menu-details {
+    padding: 20px 20px 0;
+    text-align: center;
+}
+
+.food-menu-details > h4 {
+    color: #232527;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.food-menu-details > h4::after {
+    background: #d6d6d6 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    width: 100px;
+}
+
+.menu-price {
+    color: #d0963e;
+}

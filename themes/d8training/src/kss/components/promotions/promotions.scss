@@ -1,0 +1,91 @@
+/*-----------------------------
+    4. PROMOTIONS AREA
+------------------------------*/
+
+.promotions-area {
+    position: relative;
+}
+
+.promotion-area-bg {
+    background: rgba(0, 0, 0, 0) no-repeat fixed 0 0 / cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.promotion-area-bg::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.promotions-area .area-title h3 {
+    color: #fff;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.promotions-area .area-title h3::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -40px;
+    position: absolute;
+    width: 80px;
+}
+
+.promotions-img {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.pakage-rate {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    padding-top: 18px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100px;
+    z-index: 1;
+}
+
+.pakage-rate span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.promotions-details h4 {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.promotions-area .read-more:hover {
+    background: #c1934c none repeat scroll 0 0;
+    color: #fff;
+    border-color: #c1934c;
+}
+
+.promotions-area a.read-more {
+    margin-top: 0;
+}

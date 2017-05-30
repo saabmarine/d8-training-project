@@ -55,6 +55,58 @@ footer:
     theme:
       dist/css/footer.css: {}
 
+about:
+  css:
+    theme:
+      dist/css/about.css: {}
+  js:
+    dist/js/about.js: {}
+  dependencies:
+    - d8training/magnific-popup
+
+promotions:
+  css:
+    theme:
+      dist/css/promotions.css: {}
+
+menus:
+  css:
+    theme:
+      dist/css/menus.css: {}
+  js:
+    dist/js/menus.js: {}
+  dependencies:
+    - d8training/magnific-popup
+    - d8training/mixitup-js
+
+events:
+  css:
+    theme:
+      dist/css/events.css: {}
+
+team:
+  css:
+    theme:
+      dist/css/team.css: {}
+  js:
+    dist/js/team.js: {}
+  dependencies:
+    - d8training/owl-carousel
+
+blog:
+  css:
+    theme:
+      dist/css/blog.css: {}
+
+instagram:
+  css:
+    theme:
+      dist/css/instagram.css: {}
+  js:
+    dist/js/instagram.js: {}
+  dependencies:
+    - d8training/spectragram-js
+
 # vendor-dist
 header-js:
   header: true
@@ -88,3 +140,25 @@ pogo-slider:
       vendor-dist/css/pogo-slider.css: {}
   js:
     vendor-dist/js/jquery.pogo-slider.js: {}
+
+magnific-popup:
+  css:
+    theme:
+      vendor-dist/css/magnific-popup.css: {}
+  js:
+    vendor-dist/js/jquery.magnific-popup.min.js: {}
+
+mixitup-js:
+  js:
+    vendor-dist/js/jquery.mixitup.min.js: {}
+
+owl-carousel:
+  css:
+    theme:
+      vendor-dist/css/owl.carousel.css: {}
+  js:
+    vendor-dist/js/owl.carousel.min.js: {}
+
+spectragram-js:
+  js:
+    vendor-dist/js/spectragram.js: {}

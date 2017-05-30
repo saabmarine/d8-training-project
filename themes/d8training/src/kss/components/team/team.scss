@@ -1,0 +1,95 @@
+/*-----------------------------
+    7. TEAM AREA
+-------------------------------*/
+
+.member-social-bookmark ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.member-social-bookmark ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 100%;
+    padding-top: 8px;
+    width: 100%;
+}
+
+.member-social-bookmark ul li a:hover {
+    color: #d0963e;
+}
+
+.team-member-img {
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.team-member-img::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.single-team-member:hover .team-member-img::after {
+    opacity: 0.5;
+}
+
+.team-member-img img {
+    width: 100%;
+}
+
+.member-social-bookmark {
+    height: 220px;
+    margin-top: -110px;
+    position: absolute;
+    right: -25%;
+    top: 50%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+    z-index: 9;
+}
+
+.member-social-bookmark ul li {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.member-details {
+    padding: 0 15px;
+}
+
+.single-team-member:hover .member-social-bookmark {
+    right: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.member-details > h3 {
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1px;
+}
+
+.member-details > h3:hover {
+    color: #c1934c;
+}
+
+.member-details > p {
+    margin-bottom: 0;
+}
