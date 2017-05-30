@@ -107,6 +107,19 @@ instagram:
   dependencies:
     - d8training/spectragram-js
 
+homepage:
+  css:
+    theme:
+  js:
+  dependencies:
+    - d8training/about
+    - d8training/promotions
+    - d8training/menus
+    - d8training/events
+    - d8training/team
+    - d8training/blog
+    - d8training/instagram
+
 # vendor-dist
 header-js:
   header: true
