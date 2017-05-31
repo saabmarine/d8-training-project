@@ -1,0 +1,20 @@
+{% set images = [] %}
+{% for image in paragraph.field_about_image %}
+    {% set images = images|merge([{
+      'src': file_url(image.entity.fileuri),
+    }]) %}
+{% endfor %}
+{% set target = paragraph.field_cta_link.entity.field_content_link.entity.id %}
+
+{% set data = {
+    'title': paragraph.field_title.value,
+    'description': paragraph.field_description.value,
+    'images': images,
+    'cta': {
+        'label': paragraph.field_cta_link.entity.field_label.value,
+        'link': path('entity.node.canonical', {'node': target }),
+    }
+
+} %}
+
+{% include '@d8training/about/about.twig' with data only %}
