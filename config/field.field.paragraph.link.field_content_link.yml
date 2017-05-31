@@ -1,0 +1,28 @@
+uuid: f24a7576-5030-4047-8437-8cac27f7fce0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content_link
+    - node.type.homepage
+    - paragraphs.paragraphs_type.link
+id: paragraph.link.field_content_link
+field_name: field_content_link
+entity_type: paragraph
+bundle: link
+label: 'Content Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      homepage: homepage
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

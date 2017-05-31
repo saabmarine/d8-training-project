@@ -1,0 +1,20 @@
+uuid: 8af411a1-c1cc-4188-8bac-737a9abf022d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_block
+id: block_content.header_block.default
+targetEntityType: block_content
+bundle: header_block
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

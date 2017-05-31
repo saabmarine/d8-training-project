@@ -1,0 +1,12 @@
+uuid: 7b19ab84-fb1d-4e81-af75-dfb433b60117
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_block
+id: block_content.header_block.default
+targetEntityType: block_content
+bundle: header_block
+mode: default
+content: {  }
+hidden: {  }

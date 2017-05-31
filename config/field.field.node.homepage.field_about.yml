@@ -1,0 +1,33 @@
+uuid: 1bbf47c9-072e-4fd6-b147-430f8f407f00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about
+    - node.type.homepage
+    - paragraphs.paragraphs_type.about
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_about
+field_name: field_about
+entity_type: node
+bundle: homepage
+label: About
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      about: about
+    target_bundles_drag_drop:
+      about:
+        enabled: true
+        weight: 3
+      link:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

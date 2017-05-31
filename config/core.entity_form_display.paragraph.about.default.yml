@@ -1,0 +1,60 @@
+uuid: 3f7677e6-e8bd-40b5-aa8b-29e0f9c7ae37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about.field_about_image
+    - field.field.paragraph.about.field_cta_link
+    - field.field.paragraph.about.field_description
+    - field.field.paragraph.about.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.about
+  module:
+    - image
+    - paragraphs
+    - text
+id: paragraph.about.default
+targetEntityType: paragraph
+bundle: about
+mode: default
+content:
+  field_about_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_cta_link:
+    type: entity_reference_paragraphs
+    weight: 3
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

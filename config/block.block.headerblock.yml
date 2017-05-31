@@ -1,0 +1,25 @@
+uuid: 32b125ae-abcd-4a62-ac5b-add11bf940d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:header_block:fc158fd6-0f2b-497d-ac56-79db99f04628'
+  module:
+    - block_content
+  theme:
+    - d8training
+id: headerblock
+theme: d8training
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:fc158fd6-0f2b-497d-ac56-79db99f04628'
+settings:
+  id: 'block_content:fc158fd6-0f2b-497d-ac56-79db99f04628'
+  label: 'Header Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

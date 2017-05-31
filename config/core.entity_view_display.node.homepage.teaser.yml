@@ -1,0 +1,18 @@
+uuid: 821d5302-841a-49f4-863a-3e4cc7c9fcb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.teaser
+targetEntityType: node
+bundle: homepage
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

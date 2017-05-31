@@ -1,0 +1,14 @@
+uuid: 2f888c9f-aa9e-4b51-9fe7-34c0b7711080
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - roel.zacarias@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

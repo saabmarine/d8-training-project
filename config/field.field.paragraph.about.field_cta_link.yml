@@ -1,0 +1,33 @@
+uuid: 24f0aba9-e762-46b0-9c5a-9fcd375f204d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_link
+    - paragraphs.paragraphs_type.about
+    - paragraphs.paragraphs_type.link
+  module:
+    - entity_reference_revisions
+id: paragraph.about.field_cta_link
+field_name: field_cta_link
+entity_type: paragraph
+bundle: about
+label: 'Cta Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      link: link
+    target_bundles_drag_drop:
+      about:
+        weight: 3
+        enabled: false
+      link:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions
